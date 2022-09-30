@@ -1,0 +1,70 @@
+@import url(https://fonts.googleapis.com/css?family=Space+Grotesk);
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Space Grotesk';
+    padding: 5em;
+    font-weight: 700;
+}
+#sub {
+    color: #a3a3a3;
+    font-size: 1.5em;
+    font-weight: 900;
+}
+#sub-heading{
+    color: white;
+    font-size:2em;
+    font-weight: 900;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:visited{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #a3a3a3;
+}
+
+.main-title{
+    font-size: 4em;
+}
+
+
+.technmedia{
+    display: flex;
+    flex-wrap: wrap;
+    gap:300px;
+    padding-top: 5em;
+}
+.tech-logos {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+}
+.media-logos {
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+}
+.logo{
+    padding: 0.5em 0.5em 0.5em 0 ;
+}
+
+
+footer{
+    padding-top: 5em;
+}
+.contact-socials{
+    display:flex;
+    color: white;
+    padding-top:0.5em;
+}
+.twitter{
+    padding-left: 2rem;
+}
+
+
+/* Responsive */
+
