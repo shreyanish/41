@@ -91,5 +91,8 @@ footer{
     .contact-socials {
         padding-top: 0.1em;
     }
+    .logo {
+        width: 45px
+    }
 
 }
