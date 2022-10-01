@@ -55,6 +55,7 @@ a:hover{
 
 footer{
     padding-top: 5em;
+    padding-right: 1em;
 }
 .contact-socials{
     display:flex;
@@ -68,3 +69,27 @@ footer{
 
 /* Responsive */
 
+@media (max-width: 1280px) {
+    .technmedia {
+        gap: 100px;
+    }
+}
+
+@media (max-width: 475px) {
+    #sub {
+        font-size: 0.75em;
+    }
+    #sub-heading {
+        font-size: 1em;
+    }
+    .main-title {
+        font-size: 2em;
+    }
+    #socials {
+        font-size: 0.5em;
+    }
+    .contact-socials {
+        padding-top: 0.1em;
+    }
+
+}
